@@ -1,0 +1,49 @@
+
+baseurl = "https://jnjosh.com/"
+languageCode = "fr-FR"
+title = "internet weblog"
+theme = "internet-weblog"
+pygmentsstyle = "emacs"
+Paginate = 10
+SectionPagesMenu = "main"
+Copyright = "All rights reserved - 2018"
+
+[author]
+	Handle = "BigBen"
+	FirstName = "Ben"
+	LastName = "SICARD"
+	AboutPage = "/about"
+	Location = "Paris, FRANCE"
+#	FlickrID = ""
+
+[params]
+	Description = "Internet weblog of Software (Mac, iOS, Web) Developer, Josh Johnson."
+	ShowCopyright = true
+	RSSEnabled = true
+	RSSSections = [ "Posts", "Microposts", "Photos" ]
+	RSSMicropostTitles = false
+#	YearlyMicroposts = false
+#	SummarizeMicroposts = false
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+
+[[menu.main]]
+	name = "Posts"
+	weight = 1
+	identifier = "posts"
+	url = "/posts/"
+
+[[menu.main]]
+	name = "Microposts"
+	weight = 2
+	identifier = "microposts"
+	url = "/microposts/"
+
+[[menu.main]]
+	name = "Photos"
+	weight = 3
+	identifier = "photos"
+url = "/photos/"
