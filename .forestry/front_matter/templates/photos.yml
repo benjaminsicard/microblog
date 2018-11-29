@@ -1,0 +1,22 @@
+---
+label: photos
+hide_body: false
+is_partial: false
+fields:
+- type: datetime
+  name: date
+  label: Date
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: location
+  label: Location
+  default: Enter Location, (e.g. Paris)
+- type: text
+  name: camera
+  label: Camera
+  default: Enter Camera, (e.g. Samsung S7)
+- type: text
+  name: type
+  label: Type
