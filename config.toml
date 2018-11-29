@@ -1,5 +1,5 @@
 
-baseurl = "https://jnjosh.com/"
+baseurl = "https://micro-des-champs.netlify.com/"
 languageCode = "fr-FR"
 title = "internet weblog"
 theme = "internet-weblog"
@@ -15,9 +15,10 @@ Copyright = "All rights reserved - 2018"
 	AboutPage = "/about"
 	Location = "Paris, FRANCE"
 #	FlickrID = ""
+	InstagramID = "atablecherie"
 
 [params]
-	Description = "Internet weblog of Software (Mac, iOS, Web) Developer, Josh Johnson."
+	Description = "Internet weblog of BI & Big Data Engineer, Benjamin Sicard."
 	ShowCopyright = true
 	RSSEnabled = true
 	RSSSections = [ "Posts", "Microposts", "Photos" ]
