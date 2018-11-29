@@ -1,5 +1,3 @@
-//<!-- Create your own layouts/partials/custom_javascript.html to add javascript -->
-
 var iweblog = {};
 iweblog.application = function() {
 
@@ -27,7 +25,6 @@ iweblog.application = function() {
 		displayImages: function(data, count) { _display_images(data, count); }
 	}
 }();
-
 /*
 $.ajax({
 	url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent', // or /users/self/media/recent for Sandbox
