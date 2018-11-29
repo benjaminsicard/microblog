@@ -5,7 +5,7 @@
   $(function() {
     // @summary: Use the author's flickr ID to load images from the public flickr feed
     //"https://api.flickr.com/services/feeds/photos_public.gne?id={{ .Site.Author.flickrid }}&format=json&jsoncallback=?"
-    $.getJSON("https://api.instagram.com/v1/users/self/media/recent/?access_token=3184955442.6ef4ff7.f1744b8c3af540ecaf4c6eddbdde05e3&count=8", function(data) {    	
+    $.getJSON("https://api.instagram.com/v1/users/self/media/recent/?access_token=3184955442.6ef4ff7.f1744b8c3af540ecaf4c6eddbdde05e3&format=json&jsoncallback=?", function(data) {    	
       iweblog.application.displayImages(data, 8);
     });
   });
