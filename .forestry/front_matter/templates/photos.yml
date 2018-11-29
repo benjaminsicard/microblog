@@ -6,3 +6,10 @@ fields:
 - type: datetime
   name: date
   label: Date
+- type: text
+  name: title
+  label: Title
+- type: text
+  name: location
+  label: Location
+  default: Enter Location, (e.g. Paris)
