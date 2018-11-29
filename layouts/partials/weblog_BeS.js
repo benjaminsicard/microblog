@@ -8,7 +8,7 @@ iweblog.application = function() {
 		$.each(data.data, function(i,data){
 			if (cnt == count) return;
 
-			var image = data.images.m;
+			var image = data.images;
       var smallImage = image.thumbnail.url;
       var largeImage = image.standard_resolution.url;
 			htmlString += "<a class=\"photo-item\" href=\"" + largeImage + "\">";
