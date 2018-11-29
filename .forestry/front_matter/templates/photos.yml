@@ -13,3 +13,7 @@ fields:
   name: location
   label: Location
   default: Enter Location, (e.g. Paris)
+- type: text
+  name: camera
+  label: Camera
+  default: Enter Camera, (e.g. Samsung S7)
